@@ -20,10 +20,9 @@ int calScore(int x,int y,int z){
    if(z>10)
             z=10;
     int sum = x+ y+z;
-	if(sum>=10)
+	while(sum>=10)
 		sum -=10;
-	if(sum>=10)
-		sum -=10;
+
 	
 	
 
